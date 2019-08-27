@@ -1,10 +1,9 @@
-<%= content_for :title do %>
- Pretty Title
-<% end %>
+<%= @page_title = "PrettyTitle" %>
 
 <div class="container">
   <div class="jumbotron">
     <h1>PageTitle Tutorial</h1>
-    <p>Solution 01: Use yield :title in layout and content_for :yield in view</p>
+    <p>Solution 01: Use yield :title in layout and declare content_for :yield in view</p>
+    <p>Solution 01: Use @page_title in layout and declare @age_title in view</p>
   </div>
 </div>
